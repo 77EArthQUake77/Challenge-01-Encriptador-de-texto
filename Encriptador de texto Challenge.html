@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Encriptador de Texto by 77EArthQUake77</title>
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="Encriptador Style.css">
+            <script src="Script Codificador.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="encabezado">
+                <img class="logotipo" src="Logo Alura.png">    
+                <p class="titulo"> Encriptador de Texto </p>
+            </div>
+            
+            <div class="izquierda">
+                <div class="textleft">
+                    <input class="entrada" type="text" id="entrada" placeholder="Ingrese su texto aqui" >
+                </div>
+
+                
+                <div class="botones">
+                    <p class="restricciones"> ¡No se admiten mayusculas ni acentos!</p>
+                    <button type="button" class="encriptar" onclick="encriptar()">Encriptar texto</button>
+                    <button type="button" class="desencriptar" onclick="desencriptar()">Desencriptar texto</button>
+                </div>   
+
+            </div>
+
+            <div class="derecha">
+
+                <div class="textright">
+                    <img src="Muñeco.png" id="imgder">
+                    <p id="texto2">Ningun texto fue encontrado</p>
+                    <textarea id="salida" rows="8" cols="80">No se encontro ningun resultado para mostrar</textarea>
+                </div>  
+
+                <button type="button" class="copiar" id="copiar" onclick="copiar()">Copiar texto</button>  
+            </div>
+            
+        </div> 
+        
+    </body>
+
+    <footer>
+
+        <p class="copyright"> Creado por Juan Enrique Rojas Pérez <br> AKA <br> 77EArthQUake77</p>
+        
+    </footer>
+
+
+    
+
